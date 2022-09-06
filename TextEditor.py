@@ -357,10 +357,6 @@ class TextEditor:
 		# save and load new configuration
 		self.root.update()
 
-def slow_down():
-	print("we slow down here")
-	time.sleep(5)
-
 def main():
 	print("Reading config")
 	config = configparser.ConfigParser()
